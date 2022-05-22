@@ -1,0 +1,20 @@
+name: Test Automation of saucedemo website
+
+# Run on pull requests
+on:
+  pull_request:
+    branches: [ main ]
+jobs:
+  automation-flow:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/setup-node@v1
+      with:
+        node-version: 12.22.8
+    # Clon repo
+    - uses: actions/checkout@v2
+    # Run TestCafe full suite
+    - name: Install TestCafe from 'npm' and run tests in Chrome browser
+      uses: DevExpress/testcafe-action@latest
+      with:
+        args: "\"chrome '--window-size=1440,800'\""

@@ -1,0 +1,138 @@
+{
+  "startTime": "2022-05-22T17:59:49.012Z",
+  "endTime": "2022-05-22T18:01:53.213Z",
+  "userAgents": [
+    "Safari 15.2 / macOS 10.15.7"
+  ],
+  "passed": 10,
+  "total": 10,
+  "skipped": 0,
+  "fixtures": [
+    {
+      "name": "Shopping cart scenario:",
+      "path": "/Users/ricardotoledo/Desktop/Automation/Payconiq_Assignment/tests/cart.test.js",
+      "meta": {},
+      "tests": [
+        {
+          "name": "TC6 - Remove 1 random item from shopping cart",
+          "meta": {},
+          "errs": [],
+          "durationMs": 7889,
+          "unstable": false,
+          "screenshotPath": null,
+          "skipped": false
+        },
+        {
+          "name": "TC7 - Remove all items from shopping cart",
+          "meta": {},
+          "errs": [],
+          "durationMs": 8608,
+          "unstable": false,
+          "screenshotPath": null,
+          "skipped": false
+        }
+      ]
+    },
+    {
+      "name": "Checkout - Filling user\\'s information scenario",
+      "path": "/Users/ricardotoledo/Desktop/Automation/Payconiq_Assignment/tests/fillUserInfo.test.js",
+      "meta": {},
+      "tests": [
+        {
+          "name": "TC8 - Continue with empty postal code field",
+          "meta": {},
+          "errs": [],
+          "durationMs": 8283,
+          "unstable": false,
+          "screenshotPath": null,
+          "skipped": false
+        },
+        {
+          "name": "TC9 - Fill all user's information",
+          "meta": {},
+          "errs": [],
+          "durationMs": 8100,
+          "unstable": false,
+          "screenshotPath": null,
+          "skipped": false
+        }
+      ]
+    },
+    {
+      "name": "Checkout - Finish order scenario:",
+      "path": "/Users/ricardotoledo/Desktop/Automation/Payconiq_Assignment/tests/finishOrder.test.js",
+      "meta": {},
+      "tests": [
+        {
+          "name": "TC10 - Finish an order with all items",
+          "meta": {},
+          "errs": [],
+          "durationMs": 8594,
+          "unstable": false,
+          "screenshotPath": null,
+          "skipped": false
+        }
+      ]
+    },
+    {
+      "name": "Login scenario:",
+      "path": "/Users/ricardotoledo/Desktop/Automation/Payconiq_Assignment/tests/login.test.js",
+      "meta": {},
+      "tests": [
+        {
+          "name": "TC1 - Login with a valid user",
+          "meta": {},
+          "errs": [],
+          "durationMs": 2230,
+          "unstable": false,
+          "screenshotPath": null,
+          "skipped": false
+        },
+        {
+          "name": "TC2 - Login with an invalid user",
+          "meta": {},
+          "errs": [],
+          "durationMs": 1140,
+          "unstable": false,
+          "screenshotPath": null,
+          "skipped": false
+        }
+      ]
+    },
+    {
+      "name": "Products scenario:",
+      "path": "/Users/ricardotoledo/Desktop/Automation/Payconiq_Assignment/tests/products.test.js",
+      "meta": {},
+      "tests": [
+        {
+          "name": "TC3 - Logout from product's page",
+          "meta": {},
+          "errs": [],
+          "durationMs": 3380,
+          "unstable": false,
+          "screenshotPath": null,
+          "skipped": false
+        },
+        {
+          "name": "TC4 - Add a single random item to the shopping cart",
+          "meta": {},
+          "errs": [],
+          "durationMs": 2996,
+          "unstable": false,
+          "screenshotPath": null,
+          "skipped": false
+        },
+        {
+          "name": "TC5 - Add all displayed items to the shopping cart",
+          "meta": {},
+          "errs": [],
+          "durationMs": 72853,
+          "unstable": false,
+          "screenshotPath": null,
+          "skipped": false
+        }
+      ]
+    }
+  ],
+  "warnings": []
+}
